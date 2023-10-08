@@ -45,7 +45,7 @@ trait ModalTrait
             $modalId = $this->getLivewire()->getId().'-action';
         }
 //        elseif ($this instanceof \Onexer\FilamentTreeTable\Actions\Action) {
-//            $modalId = $this->getLivewire()->getId() . '-tree-table-action';
+//            $modalId = $this->getLivewire()->getId().'-tree-table-action';
 //        }
 
         return "@livewire(\"$this->page\", [".collect([...['modalId' => $modalId], ...$para])->map(fn($item, $key) => "'$key' => '$item'")->implode(',')."])";

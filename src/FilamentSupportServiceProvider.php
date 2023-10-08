@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartEntity\FilamentSupport;
+namespace Humaidem\FilamentSupport;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

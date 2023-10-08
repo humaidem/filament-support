@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartEntity\FilamentSupport\Actions\Modal;
+namespace Humaidem\FilamentSupport\Actions\Modal;
 
 class CreateAction extends \Filament\Actions\CreateAction
 {

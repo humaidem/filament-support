@@ -1,9 +1,9 @@
 <?php
 
-namespace SmartEntity\FilamentSupport\Actions;
+namespace Humaidem\FilamentSupport\Actions;
 
 use Filament\Actions\Action;
-use SmartEntity\FilamentSupport\Actions\Trait\ModalTrait;
+use Humaidem\FilamentSupport\Actions\Trait\ModalTrait;
 
 class ModalAction extends Action
 {

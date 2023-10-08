@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartEntity\FilamentSupport\Actions\Trait;
+namespace Humaidem\FilamentSupport\Actions\Trait;
 
 use Closure;
 use Filament\Tables\Actions\Action;

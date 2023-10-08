@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartEntity\FilamentSupport\Tables\Columns;
+namespace Humaidem\FilamentSupport\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\Concerns\HasDescription;

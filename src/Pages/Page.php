@@ -1,6 +1,6 @@
 <?php
 
-namespace SmartEntity\FilamentSupport\Pages;
+namespace Humaidem\FilamentSupport\Pages;
 
 
 use Illuminate\Contracts\Support\Htmlable;

@@ -9,8 +9,15 @@
 <div class="-m-6">
     <div class="flex flex-col gap-y-4">
         <div class="flex items-center px-6 pt-6 bg-white dark:bg-white/5 rounded-t-xl h-16 space-x-1 rtl:space-x-reverse">
-            <div class="text-lg grow font-bold">
-                {{ $this->getHeading() }}
+            <div class="flex flex-grow space-x-2 rtl:space-x-reverse items-center">
+                @if($this->getNavigationIcon())
+                    <div>
+                        @svg($this->getNavigationIcon(), 'h-5 w-5')
+                    </div>
+                @endif
+                <div class="text-lg grow font-bold">
+                    {{ $this->getHeading() }}
+                </div>
             </div>
             @if ($actions = $this->getCachedHeaderActions())
                 <x-filament-actions::actions
@@ -25,7 +32,7 @@
                 color="gray"
                 icon="heroicon-o-x-mark"
                 icon-alias="modal.close-button"
-                icon-size="lg"
+                {{--                icon-size="lg"--}}
                 :label="__('filament::components/modal.actions.close.label')"
                 tabindex="-1"
                 :x-on:click="'close()'"
